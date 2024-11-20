@@ -14,7 +14,7 @@ This dataset presents a comprehensive analysis of global salary trends from 2020
 *Question: How do average salaries vary across different experience levels, and which level sees the steepest growth in pay?*
 
 *Interpretation: Salaries tend to rise with experience, highlighting the financial advantage of gaining seniority.*
-
+<br>
 
 **Graph 2: Employee Residence (Geo Choropleth Map):**
 
