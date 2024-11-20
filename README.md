@@ -7,9 +7,9 @@ This dataset presents a comprehensive analysis of global salary trends from 2020
 ![Salaries](https://github.com/user-attachments/assets/7ce16b4c-9cbe-4ff5-ab41-9beafcf019a9)
 
 
-**DASHBOARD ANALYSIS AND CHART PROMPTS**
+<h1>DASHBOARD ANALYSIS AND CHART PROMPTS</h1>
 
-**Graph 1: Salary Distribution by Experience Level:**
+<h3>Graph 1: Salary Distribution by Experience Level:</h3>
 
 **Question: How do average salaries vary across different experience levels, and which level sees the steepest growth in pay?**
 
