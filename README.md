@@ -4,7 +4,7 @@ This dataset presents a comprehensive analysis of global salary trends from 2020
 
 <h1>DASHBOARD</h1>
 
-![Salaries](https://github.com/user-attachments/assets/7ce16b4c-9cbe-4ff5-ab41-9beafcf019a9)
+![Salaries (2)](https://github.com/user-attachments/assets/00bc10f1-87f5-4032-943b-09425187f285)
 
 
 <h1>DASHBOARD ANALYSIS AND CHART PROMPTS</h1>
