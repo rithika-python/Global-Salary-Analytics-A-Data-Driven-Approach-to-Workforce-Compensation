@@ -2,10 +2,6 @@
 
 This dataset presents a comprehensive analysis of global salary trends from 2020 to 2024, with 57,194 entries covering various industries, job roles, and geographic regions. Key attributes include experience levels (Entry, Mid, Senior, Executive), employment types (Full-Time, Part-Time, etc.), company sizes (Small, Medium, Large), and remote work proportions (Remote Ratio). Salaries are recorded in local currencies and standardized to USD, enabling global comparisons. The data highlights trends such as the dominance of full-time roles, the United States as the primary employee residence, and substantial salary variations influenced by experience, job title, and company size. High-paying roles and their demand are evident, with Data Scientist being the most common job. The dataset provides valuable insights into workforce dynamics, regional salary disparities, and the impact of organizational characteristics on compensation, serving as a robust resource for understanding employment and pay trends.
 
-<h1>DASHBOARD</h1>
-
-![Salaries Dashboard NEW](https://github.com/user-attachments/assets/18b68169-6083-4dce-b5db-fbb921abb657)
-
 <H1>QUESTIONS ASKED ABOUT THE DATASET FOR DASHBOARD</H1>
 Q1. How does the level of experience affect salary in USD?<br></br>
 Q2. How do average salaries compare among the top 25 highest-paying job titles?<br></br>
@@ -19,6 +15,10 @@ Q9. What is the distribution of salaries across different currencies?<br></br>
 Q10. How do average salaries vary across different job titles and company sizes?<br></br>
 Q11. What is the average salary?<br></br>
 Q12. Total Number of Salary Currencies<br></br>
+
+<h1>DASHBOARD</h1>
+
+![Salaries Dashboard NEW](https://github.com/user-attachments/assets/18b68169-6083-4dce-b5db-fbb921abb657)
 
 <h1>INTERPRETATIONS OF CHARTS</h1>
 
@@ -40,7 +40,7 @@ Others include:
 - Engineering Manager: $262,526.
 → Roles in AI, Machine Learning, and Engineering dominate high salaries.
 <br></br>
-<h3>What is average salaries (in USD) across the top 6 job titles for the last 3 years?</h3>
+<h3>Q3. What is average salaries (in USD) across the top 6 job titles for the last 3 years?</h3>
 
 Interpretation: 
 - Analytics Engineering Manager: $399,880 (2023).
@@ -64,57 +64,7 @@ Interpretation:
 - Salaries for positions like AI Architect and Machine Learning Engineer show consistent growth.
 - Emerging roles (e.g., AI Lead) are witnessing increasing demand and salaries.
 <br></br>
-<h3>
-The dataset contains 57,194 records with 11 columns. Below is an overview of its columns:
-
-work_year: Year of the record.
-experience_level: Employee's experience level (e.g., EN - Entry-level, MI - Mid-level, SE - Senior, EX - Executive).
-employment_type: Type of employment (e.g., Full-Time, Part-Time).
-job_title: Job designation.
-salary: Employee salary in the local currency.
-salary_currency: Currency of the salary.
-salary_in_usd: Salary converted to USD.
-employee_residence: Employee's residence location.
-remote_ratio: Percentage of remote work (0, 50, 100).
-company_location: Location of the company.
-company_size: Size of the company (S - Small, M - Medium, L - Large).
-I'll now analyze the dataset to answer your questions. ​​
-
-Interpretations Based on the Data:
-Q1. How does the level of experience affect salary in USD?
-
-Executives (EX) earn the highest average salary at $202,286.
-Seniors (SE) follow with $173,847, while Mid-levels (MI) earn $143,833.
-Entry-levels (EN) earn the least, at $104,454.
-→ Higher experience levels correlate strongly with increased salaries.
-Q2. How do average salaries compare among the top 25 highest-paying job titles?
-
-The top-paying job is "Analytics Engineering Manager" with an average of $399,880.
-Others include:
-Data Science Tech Lead: $375,000
-Applied AI ML Lead: $292,500
-Head of Machine Learning: $288,701
-Engineering Manager: $262,526.
-→ Roles in AI, Machine Learning, and Engineering dominate high salaries.
-Q3. What are average salaries (in USD) across the top 6 job titles for the last 3 years?
-
-Analytics Engineering Manager: $399,880 (2023).
-Applied AI ML Lead: $292,500 (2024).
-Head of Machine Learning: Salaries jumped from $76,309 (2022) to $334,000 (2024).
-→ Significant growth for Machine Learning roles over time.
-Q4. Which job locations have the best-paying salaries?
-
-Top 5 locations by average salary:
-Qatar (QA): $300,000
-Venezuela (VE): $192,500
-Puerto Rico (PR): $167,500
-USA (US): $164,536
-Israel (IL): $144,914.
-Q5. How have salary (in USD) trends changed over time for job titles?
-
-Salaries for positions like AI Architect and Machine Learning Engineer show consistent growth.
-Emerging roles (e.g., AI Lead) are witnessing increasing demand and salaries.
-Q6. How do salaries vary by experience level across different job titles?</h3>
+<H3>Q6. How do salaries vary by experience level across different job titles?</h3>
 
 Interpretation: 
 - Senior (SE) professionals dominate higher salaries across most roles, such as AI Engineer ($177,766) and Statistician ($153,617).
