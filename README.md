@@ -8,26 +8,26 @@ This dataset presents a comprehensive analysis of global salary trends from 2020
 
 <H1>QUESTIONS ASKED ABOUT THE DATASET FOR DASHBOARD</H1>
 Q1. How does the level of experience affect salary in USD?<br></br>
-Q2. How do average salaries compare among the top 25 highest-paying job titles?
-Q3. What is average salaries (in USD) across the top 6 job titles for the last 3 years?
-Q4. Which job locations have the best-paying salaries?
-Q5. How have salary (in USD) trends changed over time for job titles?
-Q6. How do salaries vary by experience level across different job titles?
-Q7. What are the most frequently occurring job titles in the dataset?
-Q8. What is the distribution of employees across different experience levels?
-Q9. What is the distribution of salaries across different currencies?
-Q10. How do average salaries vary across different job titles and company sizes?
-Q11. What is the average salary?
-Q12. Total Number of Salary Currencies
+Q2. How do average salaries compare among the top 25 highest-paying job titles?<br></br>
+Q3. What is average salaries (in USD) across the top 6 job titles for the last 3 years?<br></br>
+Q4. Which job locations have the best-paying salaries?<br></br>
+Q5. How have salary (in USD) trends changed over time for job titles?<br></br>
+Q6. How do salaries vary by experience level across different job titles?<br></br>
+Q7. What are the most frequently occurring job titles in the dataset?<br></br>
+Q8. What is the distribution of employees across different experience levels?<br></br>
+Q9. What is the distribution of salaries across different currencies?<br></br>
+Q10. How do average salaries vary across different job titles and company sizes?<br></br>
+Q11. What is the average salary?<br></br>
+Q12. Total Number of Salary Currencies<br></br>
 
+<h1>INTERPRETATIONS OF CHARTS</h1>
 
-<h1>DASHBOARD ANALYSIS AND CHART PROMPTS</h1>
+<h3>Q1. How does the level of experience affect salary in USD?</h3>
 
-<h3>Graph 1: Salary Distribution by Experience Level:</h3>
-
-*Question: How do average salaries vary across different experience levels, and which level sees the steepest growth in pay?*
-
-*Interpretation: Salaries tend to rise with experience, highlighting the financial advantage of gaining seniority.*
+Interpretation: 
+- Executives (EX) earn the highest average salary at $202,286.
+- Seniors (SE) follow with $173,847, while Mid-levels (MI) earn $143,833.
+- Entry-levels (EN) earn the least, at $104,454.
 <br></br>
 
 <h3>Graph 2: Employee Residence (Geo Choropleth Map):</h3>
