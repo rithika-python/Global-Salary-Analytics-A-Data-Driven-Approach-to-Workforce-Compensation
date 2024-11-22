@@ -4,7 +4,21 @@ This dataset presents a comprehensive analysis of global salary trends from 2020
 
 <h1>DASHBOARD</h1>
 
-![Salaries (2)](https://github.com/user-attachments/assets/00bc10f1-87f5-4032-943b-09425187f285)
+![Salaries Dashboard NEW](https://github.com/user-attachments/assets/18b68169-6083-4dce-b5db-fbb921abb657)
+
+<H1>QUESTIONS ASKED ABOUT THE DATASET FOR DASHBOARD</H1>
+Q1. How does the level of experience affect salary in USD?
+Q2. How do average salaries compare among the top 25 highest-paying job titles?
+Q3. What is average salaries (in USD) across the top 6 job titles for the last 3 years?
+Q4. Which job locations have the best-paying salaries?
+Q5. How have salary (in USD) trends changed over time for job titles?
+Q6. How do salaries vary by experience level across different job titles?
+Q7. What are the most frequently occurring job titles in the dataset?
+Q8. What is the distribution of employees across different experience levels?
+Q9. What is the distribution of salaries across different currencies?
+Q10. How do average salaries vary across different job titles and company sizes?
+Q11. What is the average salary?
+Q12. Total Number of Salary Currencies
 
 
 <h1>DASHBOARD ANALYSIS AND CHART PROMPTS</h1>
