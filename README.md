@@ -7,7 +7,7 @@ This dataset presents a comprehensive analysis of global salary trends from 2020
 ![Salaries Dashboard NEW](https://github.com/user-attachments/assets/18b68169-6083-4dce-b5db-fbb921abb657)
 
 <H1>QUESTIONS ASKED ABOUT THE DATASET FOR DASHBOARD</H1>
-Q1. How does the level of experience affect salary in USD?
+Q1. How does the level of experience affect salary in USD?<br></br>
 Q2. How do average salaries compare among the top 25 highest-paying job titles?
 Q3. What is average salaries (in USD) across the top 6 job titles for the last 3 years?
 Q4. Which job locations have the best-paying salaries?
