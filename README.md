@@ -29,114 +29,164 @@ Interpretation:
 - Seniors (SE) follow with $173,847, while Mid-levels (MI) earn $143,833.
 - Entry-levels (EN) earn the least, at $104,454.
 <br></br>
+<h3>Q2. How do average salaries compare among the top 25 highest-paying job titles?</h3>
 
-<h3>Graph 2: Employee Residence (Geo Choropleth Map):</h3>
+Interpretation: 
+- The top-paying job is "Analytics Engineering Manager" with an average of $399,880.
+Others include:
+- Data Science Tech Lead: $375,000
+- Applied AI ML Lead: $292,500
+- Head of Machine Learning: $288,701
+- Engineering Manager: $262,526.
+→ Roles in AI, Machine Learning, and Engineering dominate high salaries.
+<br></br>
+<h3>What is average salaries (in USD) across the top 6 job titles for the last 3 years?</h3>
 
-*Question: Which regions have the highest concentration of employees and the best-paying salaries?*
+Interpretation: 
+- Analytics Engineering Manager: $399,880 (2023).
+- Applied AI ML Lead: $292,500 (2024).
+- Head of Machine Learning: Salaries jumped from $76,309 (2022) to $334,000 (2024).
+→ Significant growth for Machine Learning roles over time.
+<br></br>
+<h3>Q4. Which job locations have the best-paying salaries?</h3>
 
-*Interpretation: Geographic disparities in salaries may reflect cost-of-living differences and regional demand for certain skills.*
+Interpretation: 
+Top 5 locations by average salary:
+- Qatar (QA): $300,000
+- Venezuela (VE): $192,500
+- Puerto Rico (PR): $167,500
+- USA (US): $164,536
+- Israel (IL): $144,914.
+<br></br>
+<h3>Q5. How have salary (in USD) trends changed over time for job titles?</h3>
+
+Interpretation: 
+- Salaries for positions like AI Architect and Machine Learning Engineer show consistent growth.
+- Emerging roles (e.g., AI Lead) are witnessing increasing demand and salaries.
+<br></br>
+<h3>
+The dataset contains 57,194 records with 11 columns. Below is an overview of its columns:
+
+work_year: Year of the record.
+experience_level: Employee's experience level (e.g., EN - Entry-level, MI - Mid-level, SE - Senior, EX - Executive).
+employment_type: Type of employment (e.g., Full-Time, Part-Time).
+job_title: Job designation.
+salary: Employee salary in the local currency.
+salary_currency: Currency of the salary.
+salary_in_usd: Salary converted to USD.
+employee_residence: Employee's residence location.
+remote_ratio: Percentage of remote work (0, 50, 100).
+company_location: Location of the company.
+company_size: Size of the company (S - Small, M - Medium, L - Large).
+I'll now analyze the dataset to answer your questions. ​​
+
+Interpretations Based on the Data:
+Q1. How does the level of experience affect salary in USD?
+
+Executives (EX) earn the highest average salary at $202,286.
+Seniors (SE) follow with $173,847, while Mid-levels (MI) earn $143,833.
+Entry-levels (EN) earn the least, at $104,454.
+→ Higher experience levels correlate strongly with increased salaries.
+Q2. How do average salaries compare among the top 25 highest-paying job titles?
+
+The top-paying job is "Analytics Engineering Manager" with an average of $399,880.
+Others include:
+Data Science Tech Lead: $375,000
+Applied AI ML Lead: $292,500
+Head of Machine Learning: $288,701
+Engineering Manager: $262,526.
+→ Roles in AI, Machine Learning, and Engineering dominate high salaries.
+Q3. What are average salaries (in USD) across the top 6 job titles for the last 3 years?
+
+Analytics Engineering Manager: $399,880 (2023).
+Applied AI ML Lead: $292,500 (2024).
+Head of Machine Learning: Salaries jumped from $76,309 (2022) to $334,000 (2024).
+→ Significant growth for Machine Learning roles over time.
+Q4. Which job locations have the best-paying salaries?
+
+Top 5 locations by average salary:
+Qatar (QA): $300,000
+Venezuela (VE): $192,500
+Puerto Rico (PR): $167,500
+USA (US): $164,536
+Israel (IL): $144,914.
+Q5. How have salary (in USD) trends changed over time for job titles?
+
+Salaries for positions like AI Architect and Machine Learning Engineer show consistent growth.
+Emerging roles (e.g., AI Lead) are witnessing increasing demand and salaries.
+Q6. How do salaries vary by experience level across different job titles?</h3>
+
+Interpretation: 
+- Senior (SE) professionals dominate higher salaries across most roles, such as AI Engineer ($177,766) and Statistician ($153,617).
+- Entry-level roles generally pay less (e.g., AI Engineer at $66,866).
+→ A combination of experience and role specialization significantly boosts salaries.
+<br></br>
+<h3>Q7. What are the most frequently occurring job titles in the dataset?</h3>
+
+Interpretation: 
+- Data Scientist: 9,706 occurrences
+- Data Engineer: 7,970
+- Data Analyst: 5,980
+- Software Engineer: 5,817
+- Machine Learning Engineer: 5,067.
+→ These roles are highly sought-after and widely represented.
+<br></br>
+<h3>Q8. What is the distribution of employees across different experience levels?</h3>
+
+Interpretation: 
+- Senior (SE): 33,865 employees
+- Mid-level (MI): 16,900
+- Entry-level (EN): 5,233
+- Executive (EX): 1,196.
+→ A larger proportion of the workforce is at mid-to-senior levels.
+<br></br>
+<h3>Q9. What is the distribution of salaries across different currencies?</h3>
+
+Interpretation: 
+- Majority of salaries are reported in USD (54,467 entries), followed by GBP (1,527) and EUR (860).
+→ USD dominates the dataset, reflecting its global usage.
+<br></br>
+<h3>Q10. How do average salaries vary across different job titles and company sizes?</h3>
+
+Interpretation:
+- Larger companies (L) generally pay higher salaries, e.g.:
+- AI Architect: $234,979 (L) vs. $221,805 (M).
+- AI Engineer: $74,883 (L) vs. $167,411 (M).
+→ Smaller companies (S) tend to pay less for most roles.
+<br></br>
+<h3>Q11. What is the average salary?</h3>
+
+Interpretation: The average salary in USD across the dataset is $159,223.57.
+<br></br>
+<h3>Q12. Total Number of Salary Currencies.</h3>
+
+Interpretation: Salaries are reported in 25 unique currencies, with USD being the most prevalent.
 <br></br>
 
-<h3>Graph 3: Salary by Employment Type:</h3>
+<h1>MANAGERIAL IMPLICATIONS</h1>
 
-*Question: What are the salary trends for various employment types, and how does full-time pay compare to part-time or contract roles?*
+1.Workforce Planning and Talent Acquisition
+- High-paying roles like Analytics Engineering Manager ($399,880) and frequently occurring roles like Data Scientist (9,706 entries) highlight the need for competitive compensation in AI and analytics.
+  
+2. Retention Strategies
+- Senior ($173,847) and Executive ($202,286) roles demand higher pay, requiring career growth plans to retain top talent.
+  
+3. Market Competitiveness
+- Regions like Qatar ($300,000) and USA ($164,536) demand aligned salary structures to attract talent.
+  
+4. Budget Allocation
+- Large companies (L) pay significantly more, e.g., AI Architect ($234,979), requiring effective budget utilization for high ROI.
 
-*Interpretation: Full-time roles likely dominate higher salaries, while contract or part-time may lag behind.*
-<br></br>
-
-<h3>Graph 4: Salary Distribution by Company Size:</h3>
-
-*Question: How do salaries vary across small, medium, and large companies, and is there a clear benefit to working for larger firms?*
-
-*Interpretation: Larger companies might offer higher pay due to greater resources and market reach.*
-<br></br>
-
-<h3>Graph 5: Salary by Job Title and Experience Level:</h3>
-
-*Question: Which job titles show the greatest salary increase with experience?*
-
-*Interpretation: Highlights roles with steep career growth or pay caps at senior levels.*
-<br></br>
-
-<h3>Graph 6: Median Salary vs. Experience Level:</h3>
-
-*Question: How do median salaries compare across experience levels, and are there any unexpected trends?*
-
-*Interpretation: Helps pinpoint plateaus or unusual dips in salary growth.*
-<br></br>
-
-<h3>Graph 7: Top-Paid Job Titles:</h3>
-
-*Question: Which job titles consistently command the highest salaries, and what skills are driving their demand?*
-
-*Interpretation: Highlights high-value roles, e.g., executive-level or niche technical jobs.*
-<br></br>
-
-<h3>Graph 8: Salary Trends by Job Title:</h3>
-
-*Question: What are the historical salary trends for key job titles, and are any roles experiencing a boom or decline?*
-
-*Interpretation: Identifies industries or roles undergoing major shifts.*
-<br></br>
-
-<h3>Graph 9: Company Size vs. Experience Level:</h3>
-
-*Question: Do small companies offer competitive salaries for experienced workers compared to larger firms?*
-
-*Interpretation: Smaller firms might prioritize hiring juniors, leaving senior positions better paid at larger companies.*
-<br></br>
-
-<h3>Graph 10: Salary vs. Work Year:</h3>
-
-*Question: How have salaries evolved over recent years, and is there a trend of increasing pay?*
-
-*Interpretation: Identifies economic factors or industry growth impacting wages.*
-<br></br>
-
-<h3>Graph 11: Proportion of Employees by Experience Level (Donut Chart):</h3>
-
-*Question: What proportion of employees fall into each experience category, and is there a significant tilt towards senior roles?*
-
-*Interpretation: Offers insight into workforce demographics and hiring trends.*
-<br></br>
-
-<h3>Graph 12: Salary vs. Employee Count by Job Title:</h3>
-
-*Question: What is the relationship between the number of employees and salaries for various job titles?*
-
-*Interpretation: Identifies roles with high demand and corresponding compensation levels.*
-<br></br>
-
-<h3>Graph 13: Average Salary in USD:</h3>
-
-*Question: What is the overall average salary, and which roles or regions deviate significantly from it?*
-
-*Interpretation: Sets a baseline for comparison across all metrics.*
-<br></br>
-
-<h3>Graph 14: Most Common Job Titles:</h3>
-
-*Question: What are the most prevalent job titles, and how does their average salary compare?*
-
-*Interpretation: Identifies dominant roles in the dataset and their market positioning.*
-<br></br>
-
-<h1>KEY OBSERVATIONS:</h1>
-
-1. Most common job title: Data Scientist (9,706 instances).
-2. Highest salary in USD: $800,000.
-3. Most frequent employee residence: United States (51,857 entries).
-4. Median salary (in USD): $149,040.
-5. Majority employment type: Full-Time (FT - 56,975 entries).
-6. Remote work trends: Median remote ratio is 0%, indicating mostly on-site jobs.
+5. Industry Trend Awareness
+- Emerging roles like AI Architect and Applied AI ML Lead ($292,500 - $399,880) highlight the rising importance of niche AI skills.
 <BR></BR>
 
 <H1>CONCLUSION</H1>
 
-1. The dataset highlights global salary trends influenced by experience, job title, geography, and company size.
-2. Full-time employment dominates, with the United States being the primary employee residence.
-3. Remote work remains limited but is an emerging trend in the modern workforce.
-4. High-paying roles, such as senior and executive-level positions, show a strong correlation with experience and company size.
-5. Regional salary disparities reflect differences in cost of living and demand for specific skills.
-6. The data is a valuable resource for employers, policymakers, and job seekers to make informed decisions on workforce planning, pay structures, and career strategies.
+The salary analysis reveals critical patterns in how compensation is influenced by experience level, job roles, geographic location, and company size. Key takeaways include:
+
+1. Experience is a major determinant of salary, with executive roles earning nearly double the average entry-level pay.
+2. Top-paying job titles predominantly belong to the fields of AI, machine learning, and engineering management, reflecting the industry's current demand for tech-driven roles.
+3. Geographic disparities in salaries, with countries like Qatar and the USA offering the highest pay, highlight the importance of location in shaping compensation strategies.
+4. Emerging roles like AI Architect and Applied AI ML Lead exhibit significant growth, indicating a shift toward specialized roles in AI and data.
 <BR></BR>
