@@ -1,8 +1,10 @@
-<h1>ABOUT THE DATASET</h1>
+<h1>Global Salary Analytics: A Data-Driven Approach to Workforce Compensation</h1>
+
+<h2>ABOUT THE DATASET</h2>
 
 This dataset presents a comprehensive analysis of global salary trends from 2020 to 2024, with 57,194 entries covering various industries, job roles, and geographic regions. Key attributes include experience levels (Entry, Mid, Senior, Executive), employment types (Full-Time, Part-Time, etc.), company sizes (Small, Medium, Large), and remote work proportions (Remote Ratio). Salaries are recorded in local currencies and standardized to USD, enabling global comparisons. The data highlights trends such as the dominance of full-time roles, the United States as the primary employee residence, and substantial salary variations influenced by experience, job title, and company size. High-paying roles and their demand are evident, with Data Scientist being the most common job. The dataset provides valuable insights into workforce dynamics, regional salary disparities, and the impact of organizational characteristics on compensation, serving as a robust resource for understanding employment and pay trends.
 
-<H1>QUESTIONS ASKED ABOUT THE DATASET FOR DASHBOARD</H1>
+<H2>QUESTIONS ASKED ABOUT THE DATASET FOR DASHBOARD</H2>
 Q1. How does the level of experience affect salary in USD?<br></br>
 Q2. How do average salaries compare among the top 25 highest-paying job titles?<br></br>
 Q3. What is average salaries (in USD) across the top 6 job titles for the last 3 years?<br></br>
@@ -16,11 +18,11 @@ Q10. How do average salaries vary across different job titles and company sizes?
 Q11. What is the average salary?<br></br>
 Q12. Total Number of Salary Currencies<br></br>
 
-<h1>DASHBOARD</h1>
+<h2>DASHBOARD</h2>
 
 ![Salaries Dashboard NEW](https://github.com/user-attachments/assets/18b68169-6083-4dce-b5db-fbb921abb657)
 
-<h1>INTERPRETATIONS OF CHARTS</h1>
+<h2>INTERPRETATIONS OF CHARTS</h2>
 
 <h3>Q1. How does the level of experience affect salary in USD?</h3>
 
@@ -113,7 +115,7 @@ Interpretation: The average salary in USD across the dataset is $159,223.57.
 Interpretation: Salaries are reported in 25 unique currencies, with USD being the most prevalent.
 <br></br>
 
-<h1>MANAGERIAL IMPLICATIONS</h1>
+<h2>MANAGERIAL IMPLICATIONS</h2>
 
 - Workforce Planning and Talent Acquisition: High-paying roles like Analytics Engineering Manager ($399,880) and frequently occurring roles like Data Scientist (9,706 entries) highlight the need for competitive compensation in AI and analytics.
 - Retention Strategies: Senior ($173,847) and Executive ($202,286) roles demand higher pay, requiring career growth plans to retain top talent.
@@ -122,7 +124,7 @@ Interpretation: Salaries are reported in 25 unique currencies, with USD being th
 - Industry Trend Awareness: Emerging roles like AI Architect and Applied AI ML Lead ($292,500 - $399,880) highlight the rising importance of niche AI skills.
 <BR></BR>
 
-<H1>CONCLUSION</H1>
+<H2>CONCLUSION</H2>
 
 The salary analysis reveals critical patterns in how compensation is influenced by experience level, job roles, geographic location, and company size. Key takeaways include:
 
